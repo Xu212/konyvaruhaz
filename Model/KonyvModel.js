@@ -23,6 +23,16 @@ class KonyvModel {
                 console.error('Error:', error);
             });
     }
+    adatModosit(adat){
+        console.log("modosít model",adat);
+    }
+    adatTorl(adat){
+        console.log("törlés model",adat);
+    }
+    adatKosar(adat){
+        console.log("kosar model", adat)
+    }
 }
+
 
 export default KonyvModel;

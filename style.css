@@ -7,3 +7,22 @@ td {
     border: 1px solid black;
     padding: 5px;
 }
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#konyvek{
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 49%;
+}
+.konyv{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}

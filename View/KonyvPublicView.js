@@ -6,7 +6,7 @@ class KonyvPublicView{
             <h2>${elem.cim}</h2>
             <p>${elem.szerzo}</p>
             <p>${elem.ar}</p>
-            <button id="kosar${elem.id}">modosít</button>
+            <button id="kosar${elem.id}">Kosárba</button>
             </div>`);
             this.kosarElem = $(`#kosar${elem.id}`);
             this.kosarElem.on("click",()=>{
